@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<RelativeLayout
+			android:id="@+id/layout_root"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="10dp">
+			<TextView
+				android:id="@+id/text"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:textColor="#FFF"
+				android:text="@string/license" />
+			<CheckBox
+				android:id="@+id/lic_ack"
+				android:checked="false"
+				android:layout_below="@id/text"
+				android:text="@string/accept"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent" />
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

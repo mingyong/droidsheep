@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<RelativeLayout
+			android:id="@+id/layout_root"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="10dp">
+			<ImageView
+				
+				android:src="@drawable/droidsheep_square"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:scaleType="matrix"
+				android:id="@+id/donateimg" />
+			<TextView
+				android:id="@+id/donatetext"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+				android:textColor="#FFF"
+				android:layout_below="@id/donateimg"
+				android:paddingBottom="10px"
+				android:text="@string/donatetext" />
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/donatetext">
+				<Button
+					android:id="@+id/donate_no"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:layout_weight="1.0"
+					android:text="@string/donate_no" />
+				<Button
+					android:id="@+id/donate_yes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_weight="1.0"
+					android:text="@string/donate_yes" />
+			</LinearLayout>
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

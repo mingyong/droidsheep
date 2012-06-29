@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidSheep</string>
+    <!--string name="license">DroidSheep cuenta con absolutamente ninguna garantía. \n\n Puede utilizar este software bajo su propio riesgo.\nEl desarrollador no se hace responsable de los daños causados ​​por el uso o DroidSheep. \n Es responsabilidad del usuario verificar las leyes vigentes en su país con el fin de asegurarse de que el uso de DroidSheep es permitido por la ley en su país. En algunos países el robo de identidad puede ser prohibid por la ley. \n\nSiempre piensa en lo que haces! Robar la identidad de alguien puede causar serios problemas para él y para ti \n</string-->
+    <string name="unrooted">TU TELEFONO NO ESTA ROOTEADO \n\nDroidSheep funciona unicamente en telefonos que tienen accesso de superusario habilitado. Así que, si el teléfono no está rooteado y DroidSheep no funcionara correctamente, por favor no preguntes por soporte!. Sin embargo, DroidSheep comenzará por razones de compatibilidad</string>
+    <string name="accept">Entiendo y acepto el aviso legal</string>
+    <string name="button_stop">Parar</string>
+	<string name="button_start">Comenzar</string>
+	<string name="label_running">CORRIENDO</string>
+	<string name="label_running_and_spoofing">CORRER Y SPOOFING</string>
+	<string name="label_not_running_and_spoofing">SOLO SPOOFING </string>
+	<string name="label_not_running">Inactivo</string>
+	<string name="label_wpa_network">WPA cifrado!</string>
+	<string name="label_wep_network">WEP cifrado!</string>
+	<string name="label_open_network">La red NO esta encriptada</string>
+	<string name="label_networkname_pref">Conectado a </string>
+	<string name="label_status_connected">Estado de la red: CONECTADO</string>
+	<string name="label_status_disconnected">Estado de la red: DESCONECTADO</string>
+	<string name="notification_title">Nueva sesión ha sida capturado</string>
+	<string name="notification_text">Pulse para abrir DroidSheep!</string>
+	<string name="toast_wifi_lost">WIFI perdida o cambiada. Se ha dejado de escuchar!</string>
+	<string name="toast_process_running_text">Proceso ya se está ejecutando</string>
+	<string name="menu_black_list">Añadir host a la lista negra</string>
+	<string name="menu_save">Guardar Cookies</string>
+	<string name="cbgeneric">Modo genérico</string>
+	<string name="cbarpspoof">ARP-Spoofing</string>
+	<string name="installbusybox">Busybox debe estar instalado para ejecutarDroidSheep correctamente. ¿Quieres instalar BusyBox desde el market?</string>
+	<string name="menu_delete">Borrar cookies guardadas</string>
+	<string name="menu_open_mobile">Abrir Version movil</string>
+	<string name="menu_open_normal">Abrir Sitio</string>
+	
+	<string name="menu_remove_from_list">Eliminar de la lista</string>
+	<string name="menu_choose_page_title">Elige el tipo de página:</string>
+	<string name="menu_wifilist">Elige WiFi</string>
+	<string name="menu_clear_sessionlist">Limpiar Lista</string>
+	<string name="menu_debug">Depurar</string>
+	<string name="menu_export">Exportar via eMail</string>
+	<string name="clear_blacklist">¿Realmente desea eliminar todos los hosts de la lista negra?</string>
+	<string name="menu_blacklist_clear">Limpiar Lista negra</string>
+	<string name="menu_helpforum">AYUDA!</string>
+	<string name="menu_donate">DONACIÓN</string>
+	<string name="button_ok">Sí</string>
+	<string name="button_abprt">Abortar</string>
+	<string name="accept_text">Usted debe aceptar esta exención de responsabilidad a fin de utilizar DroidSheep!</string>
+	<string name="popup_exit">¿Realmente quieres salir DroidSheep? Sí quieres que siga en funcionamiento presiona el botón INCIO!</string>
+	<string name="popup_debug">Esto iniciará una sesión de depuración. Se empieza a escuchar y recoger información. Deja a DroidSheep seguir escuchando durante unos segundos (al menos 30) y presiona el botón "Parar". Se abrira un correo electrónico, que contendra toda la información de la depuración. Los datos no se envían en silencio!</string>
+	
+	<string name="donatetext">Espero que te haya gustado DroidSheep!\n\nDroidSheep es libre y de código abierto. Sin embargo, se necesita mucho tiempo para apoyar DroidSheep y también un poco de dinero para el funcionamiento de www.droidsheep.de\n\nAsí que si estas interesado en ayudar en este trabajo, son bienvenidas sus donaciones.\n\nGracias!</string>
+	<string name="donate_no">No, no estoy interesado.</string>
+	<string name="donate_yes">Sí, tu trabajo vale la pena!</string>
+	
+	<string name="updatetext">Hay una actualización disponible!\nActualmente no existe un mecanismo de actualización automática, pero puedes desinstalar DroidSheep y abrir "http://www.droidsheep.de" para tomar la nueva versión de forma manual desde la seccion de descargar \n Cambios: </string>
+</resources>

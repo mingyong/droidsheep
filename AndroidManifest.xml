@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="de.trier.infsec.koch.droidsheep"
+	android:versionName="15" android:versionCode="15">
+	<application
+		android:icon="@drawable/droidsheep_square"
+		android:label="DroidSheep">
+		<activity
+			android:configChanges="orientation|keyboardHidden"
+			android:name="de.trier.infsec.koch.droidsheep.activities.ListenActivity"
+			android:launchMode="singleInstance"
+			android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar">
+			<intent-filter android:label="@string/app_name">
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden"
+			android:name=".activities.HijackActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden"
+			android:name=".activities.DonateActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden"
+			android:name=".activities.UpdateActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<service
+			android:exported="false"
+			android:name=".services.ArpspoofService">
+		</service>
+		<service
+			android:exported="false" android:name=".services.DroidSheepService">
+		</service>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="com.google.android.gm.permission.WRITE_GMAIL"/>
+	<uses-sdk android:minSdkVersion="7"></uses-sdk>
+</manifest>

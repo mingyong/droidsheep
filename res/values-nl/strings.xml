@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidSheep</string>
+    <!--string name="license">DroidSheep comes with absolutely no warranty.\n\nYou use this software on your own risk.\nThe developer is not responsible for any damages caused by DroidSheep or it´s usage.\nIt´s only the users responsibility to check his countrys laws in order to make sure that the usage of DroidSheep is permitted by law in his country. In some countries stealing someones identity might be prohibited by law.\n\nAlways think about what you´re doing! Stealing someons identity can cause real trouble for him and maybe for you\n</string-->
+    <string name="unrooted">JE TELEFOON LIJKT NIET GEROOT TE ZIJN\n\nDroidSheep kan alleen draaien op telefoons met superuser toegang. Als je telefoon niet geroot is en droidsheep werkt niet, kom NIET klagen, Gelieve niet om support vragen! desondanks, zal droidsheep starten om compatibiliteitsredenen</string>
+    <string name="accept">Ik begrijp en accepteer de disclaimer</string>
+    <string name="button_stop">Stop</string>
+	<string name="button_start">Start</string>
+	<string name="label_running">BEZIG</string>
+	<string name="label_running_and_spoofing">BEZIG en SPOOFING</string>
+	<string name="label_not_running_and_spoofing">Alleen SPOOFING</string>
+	<string name="label_not_running">GEPAUZEERD</string>
+	<string name="label_wpa_network">WPA encryptie!</string>
+	<string name="label_wep_network">WEP encryptie!</string>
+	<string name="label_open_network">Netwerk heeft geen encryptie</string>
+	<string name="label_networkname_pref">Verbonden met </string>
+	<string name="label_status_connected">Netwerk status: AANGESLOTEN</string>
+	<string name="label_status_disconnected">Netwerk status: VERBROKEN</string>
+	<string name="notification_title">Er is een nieuwe sessie onderschept</string>
+	<string name="notification_text">tik om DroidSheep te openen!</string>
+	<string name="toast_wifi_lost">Wifi connectie kwijt of veranderd. Luisteren gestopt !</string>
+	<string name="toast_process_running_text">Process loopt al</string>
+	<string name="menu_black_list">voeg host toe aan zwarte lijst</string>
+	<string name="menu_save">sla cookies op</string>
+	<string name="cbgeneric">Generieke mode</string>
+	<string name="cbarpspoof">ARP-Spoofing</string>
+	<string name="installbusybox"> je moet Busybox installeren in om DroidSheep te kunnen gebruiken. Wil je BusyBox installeren uit de market?</string>
+	<string name="menu_delete">verwijder opgeslagen cookies</string>
+	<string name="menu_open_mobile">Open mobiele site</string>
+	<string name="menu_open_normal">Open site</string>
+	
+	<string name="menu_remove_from_list">verwijder uit lijst</string>
+	<string name="menu_choose_page_title">kies pagina type:</string>
+	<string name="menu_wifilist">Kies WiFi</string>
+	<string name="menu_clear_sessionlist">Leeg lijst</string>
+	<string name="menu_debug">Debug</string>
+	<string name="menu_export">Exporteer via eMail</string>
+	<string name="clear_blacklist">Wil je echt alle hosts verwijderen van de zwarte lijst?</string>
+	<string name="menu_blacklist_clear">verwijder zwarte lijst</string>
+	<string name="menu_helpforum">HELP!</string>
+	<string name="menu_donate">DONATIE</string>
+	<string name="button_ok">JA</string>
+	<string name="button_abprt">Abort</string>
+	<string name="accept_text">Je moet de akkoord gaan voordat je gebruik kunt maken van DroidSheep!</string>
+	<string name="popup_exit">Wil je droidsheep echt afsluiten? als je wilt dat droidsheep verder gaat op de achtergrond druk op de HOME knop!</string>
+	<string name="popup_debug">This will start a debug session. It will start Listening and collect debug information. Let DroidSheep keep listening for some seconds (at least 30) and press "stop". An email will open which contains all debug information. No data will be sent silently!</string>
+	
+	<string name="donatetext">Ik hoop dat je tevreden bent met DroidSheep!\n\nDroidSheep is gratis en open source. Desondanks, kost het een hoop tijd en wat geld om support te leveren en de website draaiend te houden www.droidsheep.de\n\nSo als je mijn werk waardeerd, doneer dan wat geld. \n\nThanks!</string>
+	<string name="donate_no">Nee ik ben niet geintresseerd</string>
+	<string name="donate_yes">JA dat is het waard!</string>
+	
+	<string name="updatetext">Er is een update beschikbaar!\nEr is geen automatische update service, deinstalleer de huidige versie en open "http://www.droidsheep.de" om de nieuwste versie te halen uit de GET IT! rubriek.\nChanges: </string>
+</resources>

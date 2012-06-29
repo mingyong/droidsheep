@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DroidSheep</string>
+	<!-- string name="license">DroidSheep dolazi bez ikakve garancije.\n\nKoristite ovaj software na vlastitu odgovornost.\nIzdavač nije odgovoran za bilo kakvu štetu uzrokovanu DroidSheep ili njenim korištenjem.\nKorisnikova je dužnost da provjeri zakone kako bi bio upoznat da je korištenje DroidSheep dozvoljeno zakonom u njegovoj državi. U nekim zemljama krađa tuđeg identiteta je kažnjiva zakonom.\n\nUvijek 
+		razmislite što radite! Krađa identiteta može donijeti štetu toj osobi a možda i vama\n</string> -->
+	<string name="unrooted">ČINI SE DA VAŠ UREĐAJ NIJE ROOTAN\n\nDroidSheep se može pokrećati samo na uređajima koji imaju superuser pristup. Dakle ako uređaj nije rootan DroidSheep neće raditi pravilno, molimo ne pitajte za pomoć! Ipak, DroidSheep će se pokrenuti iz kompaktibilnih razloga</string>
+	<string name="accept">Razumijem i prihvaćam uvjete</string>
+	<string name="button_stop">Zaustavi</string>
+	<string name="button_start">Pokreni</string>
+	<string name="label_running">POKRENUTO</string>
+	<string name="label_running_and_spoofing">POKRENUTO I NAPADAM</string>
+	<string name="label_not_running_and_spoofing">NAPADAJ</string>
+	<string name="label_not_running">MIROVANJE</string>
+	<string name="label_wpa_network">WPA zaštićeno!</string>
+	<string name="label_wep_network">WEP zaštićeno!</string>
+	<string name="label_open_network">Mreža nije zaštićena</string>
+	<string name="label_networkname_pref">Povezano na</string>
+	<string name="label_status_connected">Status mreže: POVEZANO</string>
+	<string name="label_status_disconnected">Status mreže: ODSPOJEN</string>
+	<string name="notification_title">Nova sesija je uhvaćena</string>
+	<string name="notification_text">Pretisni za otvoriti DroidSheep!</string>
+	<string name="toast_wifi_lost">Wifi konekcija izgubljena ili promjenjena. Zaustavljeno Praćenje!</string>
+	<string name="toast_process_running_text">Proces već pokrenut</string>
+	<string name="menu_black_list">Dodaj stranicu na Crnu listu</string>
+	<string name="menu_save">Spremi cookie</string>
+	<string name="cbgeneric">Opći mod</string>
+	<string name="cbarpspoof">ARP-Napad</string>
+	<string name="installbusybox">Busybox bi trebao biti instaliran da bi ste koristili DroidSheep pravilno. Želite li instalirati BusyBox s marketa?</string>
+	<string name="menu_delete">Izbriši spremljene cookie</string>
+	<string name="menu_open_mobile">Otvori mobilnu stranicu</string>
+	<string name="menu_open_normal">Otvori stranicu</string>
+	<string name="menu_remove_from_list">Ukloni s liste</string>
+	<string name="menu_choose_page_title">Odaberite tip stranice:</string>
+	<string name="menu_wifilist">Odaberite WiFi</string>
+	<string name="menu_clear_sessionlist">Očisti listu</string>
+	<string name="menu_debug">Otkloniti poteškoće</string>
+	<string name="menu_export">Izvoz pomoću eMaila</string>
+	<string name="clear_blacklist">Dali zaista želite izbrisati sve stranice s Crne liste?</string>
+	<string name="menu_blacklist_clear">Očisti Crnu listu</string>
+	<string name="menu_helpforum">POMOĆ!</string>
+	<string name="menu_donate">DONIRAJ</string>
+	<string name="button_ok">Da</string>
+	<string name="button_abprt">Zaustavi</string>
+	<string name="accept_text">Morate prihvatiti ove uvjete da bi mogli koristiti DroidSheep!</string>
+	<string name="popup_exit">Dali želite zatvoriti DroidSheep? Ukoliko ga želite u pozadini pretisnite HOME gumb!</string>
+	<string name="popup_debug">Ovo će započeti sesiju otklanjanja poteškoća. Pratit će vaš rad i prikupljati informacije. Pustite DroidSheep da prati nekoliko sekundi (najmanje 30) i pretisnite "zaustavi". Email će se otvoriti koji sadrži sve informacije o problemu. Podaci neće biti poslani skriveno!</string>
+	<string name="donatetext">Nadam se da vam se sviđa DroidSheep!\n\nDroidSheep je besplatan i open source. Iako, treba puno vremena oko DroidSheep i također novca za www.droidsheep.de\n\nUkoliko cijenite ovaj rad, vaše donacije su dobrodošle da se ovo održi. \n\nHvala!</string>
+	<string name="donate_no">Ne, ne zanima me.</string>
+	<string name="donate_yes">Da, vaš rad to zaslužuje!</string>
+</resources>

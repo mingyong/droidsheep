@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="unrooted">您的和手机不是ROOT模式\n\nDroidSheep只能在超级用户的手机上运行。因此，如果手机不是ROOT模式，DroidSheep无法正常工作！</string>
+    <string name="accept">我接受免责声明</string>
+    <string name="button_stop">停止</string>
+	<string name="button_start">开始</string>
+	<string name="label_running">运行</string>
+	<string name="label_running_and_spoofing">运行和欺骗</string>
+	<string name="label_not_running_and_spoofing">欺骗</string>
+	<string name="label_not_running">空闲</string>
+	<string name="label_wpa_network">WPA加密！</string>
+	<string name="label_wep_network">WEP加密！</string>
+	<string name="label_open_network">网络是未加密</string>
+	<string name="label_networkname_pref">连接到</string>
+	<string name="label_status_connected">网络状态：连接</string>
+	<string name="label_status_disconnected">网络状态：未连接</string>
+	
+	<string name="notification_title">新的会话已侦听</string>
+	<string name="notification_text">点击打开DroidSheep！</string>
+	
+	<string name="toast_wifi_lost">WiFi连接丢失或更改。停止侦听！</string>
+	<string name="toast_process_running_text">进程已经运行</string>
+	<string name="cbgeneric">Generic模式</string>
+	<string name="cbarpspoof">ARP欺骗</string>
+
+	<string name="installbusybox">应安装Busybox才能运行DroidSheep。你要从电子市场中安装BusyBox吗？</string>
+	
+	<string name="menu_black_list">添加主机到黑名单</string>
+	<string name="menu_save">保存Cookie</string>
+	<string name="menu_delete">删除保存Cookie</string>
+	<string name="menu_open_mobile">开放式移动网站</string>
+	<string name="menu_open_normal">打开网址</string>
+	<string name="menu_remove_from_list">从列表中删除</string>
+	<string name="menu_choose_page_title">选择页面类型：</string>
+	<string name="menu_wifilist">选择WiFi</string>
+	<string name="menu_clear_sessionlist">清除列表</string>
+	<string name="menu_debug">缺陷</string>
+	<string name="menu_export">通过电子邮件导出</string>
+	<string name="menu_blacklist_clear">清除黑名单</string>
+	<string name="menu_helpforum">帮助！</string>
+	<string name="menu_donate">捐款</string>
+	
+	<string name="clear_blacklist">确定从黑名单中删除的所有主机吗？</string>
+	<string name="button_ok">是</string>
+	<string name="button_abprt">中止</string>
+	<string name="accept_text">您必须接受DroidSheep使用的免责声明以！</string>
+	<string name="popup_exit">确定要退出吗？ 保持后台运行按HOME键！</string>
+	<string name="popup_debug">这将启动调试会话。启动监听并收集调试信息。让DroidSheep听几秒钟（至少30），然后按“停止”。再打开包含所有调试信息的电子邮件！</string>
+	<string name="donatetext">我希望你喜欢DroidSheep！\n\nDroidSheep是免费资源。 需要大量的时间和金钱来支持DroidSheep的开发 www.droidsheep.de\n\nSo 希望得到您的支持与帮助。 \n\n非常感谢！</string>
+	<string name="donate_no">否</string>
+	<string name="donate_yes">是</string>
+	<string name="updatetext">有可更新的！\n无法自动更新，但你可以卸载DroidSheep"http://www.droidsheep.de" 手动从下载新版本。\n更改： </string>
+	
+	<string name="changeurl">更改地址</string>
+	<string name="customurl">选择自定义URL加载</string>
+	<string name="back">返回</string>
+	<string name="forward">上一步</string>
+	<string name="close">关闭</string>
+	<string name="reload">重新装载</string>
+</resources>

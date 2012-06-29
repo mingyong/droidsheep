@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10px"
+	android:orientation="vertical">
+	<!-- <Button android:layout_width="fill_parent" android:id="@+id/bspoof" android:layout_height="wrap_content" android:enabled="true" android:text="start ARP spoofing"></Button> -->
+	<TextView
+		android:text="TEST"
+		android:id="@+id/networkname"
+		android:ellipsize="end"
+		android:lines="1"
+		android:textStyle="bold"
+		android:textSize="13dip"
+		android:textColor="#FFFFFF"
+		android:gravity="center_horizontal"
+		android:singleLine="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView
+		android:text="TEST"
+		android:id="@+id/spoofaddress"
+		android:ellipsize="end"
+		android:textSize="13dip"
+		android:lines="1"
+		android:textStyle="bold"
+		android:textColor="#FFFFFF"
+		android:gravity="center_horizontal"
+		android:singleLine="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<de.trier.infsec.koch.droidsheep.objects.SessionListView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1.0"
+		android:divider="#FFCC00"
+		android:id="@+id/sessionlist"></de.trier.infsec.koch.droidsheep.objects.SessionListView>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:gravity="center">
+		<CheckBox
+			android:id="@+id/cbarpspoof"
+			android:text="@string/cbarpspoof"
+			android:checked="true"
+			android:textSize="12sp"
+			android:layout_weight=".50"
+			android:textColor="#FFFFFF"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" />
+		<CheckBox
+			android:id="@+id/cbgeneric"
+			android:checked="true"
+			android:text="@string/cbgeneric"
+			android:layout_weight=".50"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:gravity="center">
+		<ProgressBar
+			android:id="@+id/progressBar1"
+			android:visibility="invisible"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"></ProgressBar>
+		<TextView
+			android:text="TEST"
+			android:layout_weight=".50"
+			android:textStyle="bold"
+			android:id="@+id/status"
+			android:textSize="20sp"
+			android:gravity="center"
+			android:textColor="#fff"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight=".50"
+			android:id="@+id/bstartstop"
+			android:enabled="true"
+			android:textSize="12sp"
+			android:layout_toRightOf="@id/status"
+			android:text="Start"></Button>
+	</LinearLayout>
+</LinearLayout>

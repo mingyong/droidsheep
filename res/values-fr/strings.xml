@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">DroidSheep</string>
+   <!-- string name="license">DroidSheep est distribué sans aucune garantie.\n\nVous utilisez cette application à vos propres risques.\nLe développeur n\'est pas responsable des éventuels dommages causés par DroidSheep ou son utilisation.\nIl en va uniquement de la responsabilité des utilisateurs de vérifier les lois en vigueurs dans leur pays afin de s\'assurer que l\'utilisation de DroidSheep est autorisée. Dans certains pays, voler l\'identité de quelqu\'un peut être interdit par la loi.\n\nVeuilliez toujours penser à ce que vous faites! Voler l\'identité d\'une personne peut causer de réels problèmes, pour elle autant que pour vous\n</string> -->
+   <string name="unrooted">VOTRE TÉLÉPHONE NE SEMBLE PAS ÊTRE ROOTÉ\n\nDroidSheep ne peut fonctionner que sur les téléphones disposant d\'un accès super-utilisateur. Si votre téléphone n\'est pas rooté et que de ce fait DroidSheep ne fonctionne pas, veuilliez ne pas nous demander d\'aide! Néanmoins, il se peut que, pour des raisons de compatibilité, DroidSheep refuse fonctionner</string>
+   <string name="accept">Je comprends et j\'accepte les conditions</string>
+   <string name="button_stop">Arrêter</string>
+   <string name="button_start">Démarrer</string>
+   <string name="label_running">EN COURS</string>
+   <string name="label_running_and_spoofing">EN COURS / USURPATION</string>
+   <string name="label_not_running_and_spoofing">USURPATION</string>
+   <string name="label_not_running">EN ATTENTE</string>
+   <string name="label_wpa_network">WPA crypté!</string>
+   <string name="label_wep_network">WEP crypté!</string>
+   <string name="label_open_network">Réseau NON crypté</string>
+   <string name="label_networkname_pref">Connecté à </string>
+   <string name="label_status_connected">État du réseau: CONNECTÉ</string>
+   <string name="label_status_disconnected">État du réseau: DÉCONNECTÉ</string>
+   <string name="notification_title">Une nouvelle session a été capturé</string><string name="notification_text">Appuyez ici pour ouvrir DroidSheep!</string>
+   
+   <string name="toast_wifi_lost">Connexion wifi perdue ou changée. Écoute terminée!</string>
+   <string name="toast_process_running_text">Processus déjà lancé</string>
+   <string name="menu_black_list">Ajouter l\'hôte à la liste noire</string>
+   <string name="menu_save">Enregistrer les cookies</string>
+   <string name="cbgeneric">Mode générique</string>
+   <string name="cbarpspoof">ARP-Spoofing</string>
+   <string name="installbusybox">Busybox doit être installé afin d\'exécuter DroidSheep correctement. Souhaitez-vous installer BusyBox à partir du market?</string>
+   <string name="menu_delete">Supprimer les cookies sauvegardés</string>
+   <string name="menu_open_mobile">Accéder au site (mobile)</string>
+   <string name="menu_open_normal">Accéder au site</string>
+   
+   <string name="menu_remove_from_list">Retirer de la liste</string>
+   <string name="menu_choose_page_title">Choisissez le type de page:</string>
+   <string name="menu_wifilist">Séléctionner un réseau WiFi</string>
+   <string name="menu_clear_sessionlist">Effacer la liste</string>
+   <string name="menu_debug">Débogage</string>
+   <string name="menu_export">Exporter par eMail</string>
+   <string name="clear_blacklist">Voulez-vous vraiment supprimer tous les hôtes de la liste noire?</string>
+   <string name="menu_blacklist_clear">Vider la liste noire</string>
+   <string name="menu_helpforum">AIDE!</string>
+   <string name="menu_donate">DONATION</string>
+   <string name="button_ok">Oui</string>
+   <string name="button_abprt">Annuler</string>
+   <string name="accept_text">Vous devez accepter ces conditions afin d\'utiliser DroidSheep!</string>
+   <string name="popup_exit">Voulez-vous vraiment quitter DroidSheep? Vous pouvez le laisser fonctionner en arrière plan en appuyant sur le bouton HOME!</string>
+   <string name="popup_debug">Ceci démarrera une session de débogage. L\'application commencera à écouter et recueillir des informations de débogage. Laissez DroidSheep garder l\'écoute pendant quelques secondes (au moins 30) et appuyez sur &quot;arrêter&quot;. Un email contenant toutes les informations de débogage sera alors créé. Aucune donnée ne sera envoyé silencieusement!</string>
+   
+   <string name="donatetext">J\'espère que vous aimez DroidSheep!\n\nDroidSheep est gratuit et open source. Néanmoins, le maintient d\'un support en ligne pour l\'application DroidSheep nécessite un peu d\'argent (www.droidsheep.de).\n\nDonc, si vous souhaitez soutenir ce travail, toute donation sera la bienvenue. \n\nMerci!</string>
+   <string name="donate_no">Non, je ne suis pas intéressé.</string>
+   <string name="donate_yes">Oui, votre travail vaut la peine!</string>
+   
+</resources>

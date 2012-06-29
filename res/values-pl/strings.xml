@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">DroidSheep</string>
+    <!-- string name="license">Spolszczył Maciej dla mobilevice.pl\nDarmowe gry i aplikacje java/android po polsku\n\n\nDroidSheep nie daje Ci żadnej gwarancji.\n\nUżywasz tej aplikacji na własne ryzyko.\nTwórca aplikacji nie odpowiada ze ewentualne szkody wyrządzone przez ten program.\nObowiązkiem użytkownika jest sprawdzenie czy w jego kraju nie jest zabronione używanie tego typu oprogramowania.\n</string> -->
+    <string name="unrooted">TWÓJ TELEFON NIE ZOSTAŁ ZROOTOWANY\n\nDroidSheep działa tylko z uprawnieniami superusera. Jeśli więc Twój telefon nie jest zrootowany i nie możesz z niego korzystać, nie proś o wsparcie!</string>
+    <string name="accept">Rozumiem i akceptuję</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_start">Start</string>
+    <string name="label_running">DZIAŁANIE...</string>
+    <string name="label_running_and_spoofing">DZIAŁANIE I WYKRADANIE...</string>
+    <string name="label_not_running_and_spoofing">TYLKO WYKRADANIE</string>
+    <string name="label_not_running">BEZCZYNNOŚĆ</string>
+    <string name="label_wpa_network">WPA zdekodowane!</string>
+    <string name="label_wep_network">WEP zdekodowane!</string>
+    <string name="label_open_network">Sieć nie JEST odkodowana</string>
+    <string name="label_networkname_pref">Podłączony do</string>
+    <string name="label_status_connected">Status sieci: PODŁĄCZONY</string>
+    <string name="label_status_disconnected">Status sieci: ROZŁĄCZONY</string>
+    <string name="notification_title">Nowa sesja została przechwycona</string>
+    <string name="notification_text">Dotknij by otworzyć DroidSheep!</string>
+    <string name="toast_wifi_lost">Uracono lub zmieniono połączenie WiFi. Zatrzymano nasłuchiwanie!</string>
+    <string name="toast_process_running_text">Proces już działa</string>
+    <string name="menu_black_list">Dodaj host do czarnej listy</string>
+    <string name="menu_save">Zapisz ciasteczka</string>
+    <string name="cbgeneric">Tryb ogólny</string>
+    <string name="cbarpspoof">Hackowanie ARP</string>
+    <string name="installbusybox">Busybox powinien być zainstalowany by aplikacja działala prawidłowo. Chcesz pobrać go z Marketu?</string>
+    <string name="menu_delete">Usuń zapisane ciasteczka</string>
+    <string name="menu_open_mobile">Otwórz stronę mobilną</string>
+    <string name="menu_open_normal">Otwórz stronę</string>
+    <string name="menu_remove_from_list">Usuń z listy</string>
+    <string name="menu_choose_page_title">Wybierz typ działania:</string>
+    <string name="menu_wifilist">Wybierz WiFi</string>
+    <string name="menu_clear_sessionlist">Wyczyść listę</string>
+    <string name="menu_exit">Wyjdź</string>
+    <string name="menu_export">Wyślij na maila</string>
+    <string name="clear_blacklist">Na pewno chcesz usunąć wszystkie hosty z czarnej listy?</string>
+    <string name="menu_blacklist_clear">Wyczyść czarną listę</string>
+    <string name="menu_helpforum">POMOC!</string>
+    <string name="menu_donate">DOTACJA</string>
+    <string name="button_ok">Tak</string>
+    <string name="button_abprt">Anuluj</string>
+    <string name="accept_text">Musisz zaakceptować zasady, by móc korzystać z aplikacji!</string>
+    <string name="donatetext">Mam nadzieję, że spodobał Ci się ten program!\n\nDziała on na licencji open source, a więc nie czerpię z niego żadnych przychodów. Jeśli jednak chcialbyś wesprzeć mnie w udoskonalaniu DroidSheep, możesz przesłać mi dotację. Dzięki!</string>
+    <string name="donate_no">Nie jestem zainteresowany.</string>
+    <string name="donate_yes">Tak, Twoja robota jest tego warta!</string>
+</resources>

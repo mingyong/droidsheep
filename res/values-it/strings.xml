@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DroidSheep</string>
+	<string name="unrooted">IL TELEFONO SEMBRA NON AVERE I PERMESSI DI
+		ROOT\n\nDroidSheep può essere eseguito solo su telefoni che hanno l´
+		accesso superuser attivato. Quindi se il telefono non ha il root e
+		DroidSheep non funziona correttamente, per favore non chiedere alcun
+		supporto! Tuttavia DroidSheep partirà lo stesso per ragioni di
+		compatibilità</string>
+	<string name="accept">Ho capito e accetto il disclaimer</string>
+	<string name="button_stop">Ferma</string>
+	<string name="button_start">Avvia</string>
+	<string name="label_running">IN ESECUZIONE</string>
+	<string name="label_running_and_spoofing">IN ESECUZIONE E SPOOFING</string>
+	<string name="label_not_running_and_spoofing">SOLO SPOOFING</string>
+	<string name="label_not_running">INATTIVO</string>
+	<string name="label_wpa_network">Criptato con WPA!</string>
+	<string name="label_wep_network">Criptato con WEP!</string>
+	<string name="label_open_network">La rete NON è criptata</string>
+	<string name="label_networkname_pref">Connesso a </string>
+	<string name="label_status_connected">Stato rete: CONNESSO</string>
+	<string name="label_status_disconnected">Stato rete: DISCONNESSO</string>
+	<string name="notification_title">E´ stata rilevata una nuova sessione</string>
+	<string name="notification_text">Premi per aprire DroidSheep!</string>
+	<string name="toast_wifi_lost">Connessione wifi persa o modificata. Fermato l´ascolto!</string>
+	<string name="toast_process_running_text">Il processo è già in esecuzione</string>
+	<string name="menu_black_list">Aggiungi hosto alla blacklist</string>
+	<string name="menu_save">Salva cookie</string>
+	<string name="cbgeneric">Modalità generica</string>
+	<string name="cbarpspoof">ARP-Spoofing</string>
+	<string name="installbusybox">Busybox deve essere installato per far funzionare correttamente DroidSheep. Vuoi installarlo ora dal market?</string>
+	<string name="menu_delete">Cancella cookie salvati</string>
+	<string name="menu_open_mobile">Apri sito mobile</string>
+	<string name="menu_open_normal">Apri sito</string>
+	<string name="menu_remove_from_list">Rimuovi dalla lista</string>
+	<string name="menu_choose_page_title">Scegli tipo di pagina:</string>
+	<string name="menu_wifilist">Scegli WiFi</string>
+	<string name="menu_clear_sessionlist">Cancella lista</string>
+	<string name="menu_debug">Debug</string>
+	<string name="menu_export">Escporta via email</string>
+	<string name="clear_blacklist">Vuoi davvero cancellare tutti gli host dalla blacklist?</string>
+	<string name="menu_blacklist_clear">Cancella blacklist</string>
+	<string name="menu_helpforum">AIUTO!</string>
+	<string name="menu_donate">DONAZIONE</string>
+	<string name="button_ok">Sì</string>
+	<string name="button_abprt">Annulla</string>
+	<string name="accept_text">Devi accettare questo disclaimer per poter utilizzare DroidSheep!</string>
+	<string name="popup_exit">Vuoi davvero uscire da DroidSheep? Se desideri mantenerlo in esecuzione in background premi il pulsante HOME!</string>
+	<string name="popup_debug">Verrà avviata una sessione di debug. Inizierà l´ascolto e la raccolta delle informazioni di debug. Lascia in ascolto DroidSheep per alcuni secondi (almeno 30) e poi premi "ferma". Si aprirà una email che conterrà tutte le informazioni di debug. Nessun dato verrà trasmesso di nascosto!</string>
+	<string name="donatetext">Spero che DroidSheep ti piaccia!\n\nDroidSheep è gratuito e open source. Tuttavia è necessario molto tempo per sviluppare DroidSheep e anche molto denaro per sostenere il sito www.droidsheep.de\n\nQuindi se apprezzi il mio lavoro una donazione è la benvenuta. \n\nGrazie!</string>
+	<string name="donate_no">No, non sono interessato.</string>
+	<string name="donate_yes">Sì, ne vale la pena!</string>
+	<string name="updatetext">E´ disponibile un aggiornamen!\nAttualmente non è presente un meccanismo di aggiornamento automatico ma è necessario disinstallare DroidSheep e aprire "http://www.droidsheep.de" per scaricare manualmente la nuova versione nella sezione download.\nModifiche: </string>
+</resources>

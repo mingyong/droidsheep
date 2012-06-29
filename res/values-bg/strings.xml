@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidSheep</string>
+    <!-- string name="license">DroidSheep идва без абсолютно никаква гаранция.\n\nИзползвайте този софтуер на собствен риск.\nРазработчикът не е отговорен за вреди причинени от DroidSheep или начина по който се ползва.\nПотребителят сам е длъжен да се увери че използването на DroidSheep е разрешено по закон в неговата държава. В някои държави кражбата на самоличност може да е забранена по закон.\n\nВинаги обмисляйте действията си! Кражба на чужда самоличност може да причини сериозни вреди както на жертвата, така и на Вас\n</string> -->
+    <string name="unrooted">ВАШИЯТ ТЕЛЕФОН НЕ Е ROOT-НАТ\n\nDroidSheep работи само на телефони с разрешен суперпотребителски достъп. Така че ако телефонът Ви не е root-нат и DroidSheep не работи правилно, моля не искайте помощ от нас! Въпреки това DroidSheep ще се стартира поради съображения за съвместимост.</string>
+    <string name="accept">Разбирам и се съгласявам с условията</string>
+    <string name="button_stop">Спри</string>
+	<string name="button_start">Начало</string>
+	<string name="label_running">СЪБИРАНЕ</string>
+	<string name="label_running_and_spoofing">СЪБИРАНЕ И SPOOFING</string>
+	<string name="label_not_running_and_spoofing">САМО SPOOFING</string>
+	<string name="label_not_running">В ГОТОВНОСТ</string>
+	<string name="label_wpa_network">WPA криптиран!</string>
+	<string name="label_wep_network">WEP криптиран!</string>
+	<string name="label_open_network">Мрежата НЕ е криптирана</string>
+	<string name="label_networkname_pref">Свързани сте с </string>
+	<string name="label_status_connected">Състояние мрежа: СВЪРЗАН</string>
+	<string name="label_status_disconnected">Състояние мрежа: РАЗКАЧЕН</string>
+	<string name="notification_title">Нова сесия беше прихваната</string>
+	<string name="notification_text">Докоснете за отваряне на DroidSheep!</string>
+	<string name="toast_wifi_lost">Wifi връзката беше загубена или сменена. Събирането спряно!</string>
+	<string name="toast_process_running_text">Процесът вече се изпълнява</string>
+	<string name="menu_black_list">Добави хостът към черния списък</string>
+	<string name="menu_save">Запази бисквитките</string>
+	<string name="cbgeneric">Общ режим</string>
+	<string name="cbarpspoof">ARP-Spoofing</string>
+	<string name="installbusybox">Busybox трябва да бъде инсталирана за да може DroidSheep да работи правилно. Искате ли да инсталирате BusyBox от маркета?</string>
+	<string name="menu_delete">Изтрий запазените бисквитки</string>
+	<string name="menu_open_mobile">Отвори мобилен сайт</string>
+	<string name="menu_open_normal">Отвори сайт</string>
+	
+	<string name="menu_remove_from_list">Премахни от списъка</string>
+	<string name="menu_choose_page_title">Избери тип на страница:</string>
+	<string name="menu_wifilist">Избери WiFi</string>
+	<string name="menu_clear_sessionlist">Изчисти списък</string>
+	<string name="menu_debug">Дебъг</string>
+	<string name="menu_export">Експортирай чрез eMail</string>
+	<string name="clear_blacklist">Наистина ли искате да изтриете всички хостове от черния списък?</string>
+	<string name="menu_blacklist_clear">Изтрий черен списък</string>
+	<string name="menu_helpforum">ПОМОЩ!</string>
+	<string name="menu_donate">ДАРЕНИЕ</string>
+	<string name="button_ok">Да</string>
+	<string name="button_abprt">Отказ</string>
+	<string name="accept_text">Трябва да се съгласите с условията за да използвате DroidSheep!</string>
+	<string name="popup_exit">Наистина ли искате да затворите DroidSheep? Ако искате да продължи да работи във фонов режим, натиснете HOME бутона!</string>
+	<string name="popup_debug">Това ще стартира дебъг сесия. Събирането ще започне, а същевременно ще се натрупва и информация за възникнали програмни грешки. Оставете DroidSheep да събира известно време (поне 30 секунди) и натиснете "Спри". Ще се отвори email с цялата събрана дебъг информация. Никакви данни нямат да бъдат изпращани без Вашето съгласие!</string>
+	
+	<string name="donatetext">Надявам се, че харесвате DroidSheep!\n\nDroidSheep е безплатна и с отворен код. Въпреки това, поддръжката на DroidSheep отнема доста време, а малко пари отиват и за сървърите на www.droidsheep.de\n\nТака че, ако искате да оцените този труд, ще бъда много благодарен ако имате възможност да дарите малка сума в негова подкрепа. \n\nБлагодаря Ви!</string>
+	<string name="donate_no">Не, благодаря.</string>
+	<string name="donate_yes">Да, трудът ти си заслужава!</string>
+	
+</resources>
